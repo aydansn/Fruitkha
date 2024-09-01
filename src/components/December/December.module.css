@@ -1,0 +1,40 @@
+.allDec {
+  margin: 0px;
+  padding: 0px;
+  height: 80vh;
+  background-image: url(../../assets/images/portagal.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.december {
+  padding: 50px;
+}
+.sale {
+  padding: 20px 0px;
+  color: black;
+  font-size: 50px;
+}
+.upto {
+  font-size: 30px;
+}
+.now {
+  padding: 15px 25px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  margin: 20px 0px;
+}
+.faiz {
+  font-size: 50px;
+  color: orange;
+}
+.yanashi3 {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.off {
+  font-size: 50px;
+}

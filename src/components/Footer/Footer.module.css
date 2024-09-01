@@ -1,0 +1,50 @@
+.allFooter{
+    padding: 100px 80px 30px 80px;
+    background-color: #051922;
+    align-items:center;
+}
+.dortlu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+  
+}
+.email{
+    padding: 15px 30px;
+    background-color:#012738;
+    color: darkgray;
+    border: none;
+}
+.ul{
+   
+}
+hr{
+    color: orange;
+}
+.pages{
+    color: white;
+    padding-bottom: 10px;
+}
+li{
+    color:gray;
+    list-style: none;
+    padding: 5px 0px;
+}
+.copy{
+    color: orange;
+}
+.lastFood{
+    padding: 100px 80px;
+    background-color: #051922;
+    align-items:center;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.rightLas{
+    color: white;
+    gap: 20px;
+    display: flex;
+    font-size: 22px;
+}

@@ -1,0 +1,39 @@
+.video{
+    padding: 0px 50px 50px 50px;
+}
+.allYear{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.leftYearr{
+    width: 50%;
+}
+.rightYear{
+    width: 50%;
+    padding-left: 50px;
+}
+.since{
+    color:#37474E;
+}
+.are{
+    padding: 10px 0px;
+    color: orange;
+    font-size: 45px;
+}
+.know{
+    border-radius: 20px;
+    border: none;
+    padding: 15px 25px;
+    background-color: orange;
+    color: white;
+    margin-right: 390px;
+}
+.etiam{
+    padding-bottom: 10px;
+    margin-right: 30px;
+}
+.sit{
+    padding-bottom: 30px;
+    margin-right: 50px;
+}

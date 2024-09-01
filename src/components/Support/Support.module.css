@@ -1,0 +1,32 @@
+.shipping{
+    padding: 80px 20px 80px 100px;
+    background-color:#F5F5F5;
+    align-items:center;
+
+}
+.ikiliyan{
+    display: flex;
+    gap: 20px;
+    align-items:center;
+}
+.uchluYan{
+    display: flex;
+    gap: 130px;
+    align-items:center; 
+}
+.icons{
+    padding: 18px 20px;
+    border-radius: 50px;
+    border: 2px #F28123 dotted;
+    color: orange;
+    background-color:#F5F5F5;
+}
+.icon1{
+    font-size: 27px;
+}
+.free{
+    color:black;
+}
+.when{
+    color:gray;
+}

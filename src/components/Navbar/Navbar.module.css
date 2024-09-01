@@ -1,0 +1,113 @@
+.allNavbars {
+background-color: black;
+
+}
+.butunNavbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 50px;
+  z-index: inherit;
+position: fixed;
+color: black;
+width: 100%;
+background-color: black;
+
+}
+.logos {
+  width: 15%;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.links a {
+  text-decoration: none;
+  color: white;
+}
+.links a:hover {
+  color: orange;
+}
+.search {
+  color: white;
+}
+.basket {
+  color: white;
+}
+.user {
+  font-size: 20px;
+}
+.navRight {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+
+@media (max-width: 1440px) {
+  .butunNavbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .links {
+    display: flex;
+  }
+  a {
+    font-size: 18px;
+  }
+  .navRight {
+    display: flex;
+    margin-left: 50px;
+  }
+  .getInTouch button {
+    margin-left: 20px;
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .butunNavbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .links {
+    display: flex;
+  }
+  a {
+    font-size: 15px;
+  }
+  .navRight {
+    display: flex;
+    margin-left: 0px;
+  }
+  .getInTouch button {
+    margin-left: 45px;
+    padding: 12px 5px;
+  }
+}
+
+@media (max-width: 500px) {
+  .butunNavbar {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .links {
+    display: flex;
+  }
+  a {
+    font-size: 15px;
+  }
+  .navRight {
+    display: flex;
+    margin-left: 0px;
+  }
+  .getInTouch button {
+    margin-left: 100px;
+    padding: 10px 20px;
+  }
+}

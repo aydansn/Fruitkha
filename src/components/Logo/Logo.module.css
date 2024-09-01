@@ -1,0 +1,10 @@
+.allLogo{
+    padding: 30px 150px;
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logos{
+    width: 19%;
+}

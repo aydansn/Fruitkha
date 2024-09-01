@@ -1,0 +1,54 @@
+.allOfOur {
+  padding: 20px 30px;
+}
+.allOur {
+  padding: 50px;
+  text-align: center;
+}
+.ours {
+  font-size: 50px;
+}
+.allFruits {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 20px 30px 60px 30px;
+}
+.impus {
+  padding: 20px 0px 50px 0px;
+  color: #555555;
+}
+.nar {
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+.fruit {
+  text-align: start;
+  border-radius: 10px;
+  border: 1px solid rgb(223, 209, 209);
+}
+.look {
+  padding: 10px 25px;
+  color: black;
+}
+.yanashi {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 10px 25px;
+  font-size: 13px;
+}
+.moreN{
+    padding: 15px 30px;
+    border-radius:20px;
+    background-color: orange;
+    color:white;
+    border: none;
+}
+.title {
+  padding: 10px 25px;
+}
+.more{
+    padding: 10px 25px;
+
+}

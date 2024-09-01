@@ -1,0 +1,22 @@
+.shop{
+    margin: 0px;
+    padding: 0px;
+    height: 80vh;
+    background-image: url(../../assets/images/breadcrumb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    z-index: -1;
+    background-position: center;
+}
+.shop{
+    text-align: center;
+    padding: 200px 0px 0px 0px;
+}
+.min{
+    color: orange;
+}
+.textBig{
+    font-size: 50px;
+    color: white;
+}
