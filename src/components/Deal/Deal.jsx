@@ -32,7 +32,7 @@ const Deal = () => {
                             <p>Days</p>
                     </div>
                 </div>
-                <button className={style.cat}>Add to Cart</button>
+                {/* <button className={style.cat}>Add to Cart</button> */}
 
             </div>
         </div>

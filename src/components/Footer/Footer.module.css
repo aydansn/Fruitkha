@@ -1,50 +1,95 @@
-.allFooter{
-    padding: 100px 80px 30px 80px;
-    background-color: #051922;
-    align-items:center;
+.allFooter {
+  background-color: #051922;
+  align-items: center;
 }
-.dortlu{
+.dortlu {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+.email {
+  padding: 15px 30px;
+  background-color: #012738;
+  color: darkgray;
+  border: none;
+}
+hr {
+  color: orange;
+}
+.pages {
+  color: white;
+  padding-bottom: 10px;
+}
+li {
+  color: gray;
+  list-style: none;
+  padding: 5px 0px;
+}
+.copy {
+  color: orange;
+}
+.lastFood {
+  background-color: #051922;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rightLas {
+  color: white;
+  gap: 20px;
+  display: flex;
+  font-size: 22px;
+}
+
+@media (max-width: 1440px) {
+  .allFooter {
+    padding: 100px 80px 30px 80px;
+  }
+  .dortlu {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    align-items: center;
-    justify-items: center;
-  
-}
-.email{
-    padding: 15px 30px;
-    background-color:#012738;
-    color: darkgray;
-    border: none;
-}
-.ul{
-   
-}
-hr{
-    color: orange;
-}
-.pages{
-    color: white;
-    padding-bottom: 10px;
-}
-li{
-    color:gray;
-    list-style: none;
-    padding: 5px 0px;
-}
-.copy{
-    color: orange;
-}
-.lastFood{
+    padding: 0px 0px 50px 0px;
+  }
+  .lastFood {
     padding: 100px 80px;
-    background-color: #051922;
-    align-items:center;
     display: flex;
-    justify-content: space-between;
-    align-items:center;
+  }
 }
-.rightLas{
-    color: white;
-    gap: 20px;
+
+@media (max-width: 800px) {
+  .allFooter {
+    padding: 50px 50px 30px 50px;
+  }
+  .dortlu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0px 0px 50px 100px;
+    row-gap: 30px;
+  }
+  .lastFood {
+    padding: 10px 80px;
     display: flex;
-    font-size: 22px;
+  }
+}
+
+@media (max-width: 500px) {
+  .allFooter {
+    padding: 50px 10px 30px 10px;
+  }
+  .dortlu {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0px 0px 0px 10px;
+    row-gap: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .lastFood {
+    padding: 10px 70px 30px 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
 }

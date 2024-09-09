@@ -7,17 +7,12 @@
   background-size: cover;
   background-position: center;
 }
-.december {
-  padding: 50px;
-}
+
 .sale {
   padding: 20px 0px;
   color: black;
-  font-size: 50px;
 }
-.upto {
-  font-size: 30px;
-}
+
 .now {
   padding: 15px 25px;
   background-color: orange;
@@ -37,4 +32,50 @@
 }
 .off {
   font-size: 50px;
+}
+
+@media (max-width: 1440px) {
+  .sale {
+    font-size: 50px;
+  }
+  .upto {
+    font-size: 30px;
+  }
+  .december {
+    padding: 50px;
+  }
+}
+
+@media (max-width: 800px) {
+  .leftDec {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  .sale {
+    font-size: 20px;
+  }
+  .upto {
+    font-size: 15px;
+  }
+  .december {
+    padding: 50px;
+  }
+}
+
+@media (max-width: 500px) {
+  .leftDec {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  .sale {
+    font-size: 17px;
+  }
+  .upto {
+    font-size: 15px;
+  }
+  .december {
+    padding: 50px;
+  }
 }

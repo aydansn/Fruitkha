@@ -40,67 +40,11 @@ const Our = (props) => {
                 <div>{mehsul.titleTwo}</div>
               </div>
               <div className={style.title}>{mehsul.describtion}</div>
-              <div className={style.more}>{mehsul.more}</div>
+              {/* <div className={style.more}>{mehsul.more}</div> */}
             </div>
           ))}
-          {/* <div className={style.fruit}>
-            <img className={style.nar} src={grapes} alt="" />
-            <div className={style.name}>
-              <h3 className={style.look}>
-                You will vainly look for fruit on it in autumn.
-              </h3>
-            </div>
-            <div className={style.yanashi}>
-              <p>Admin</p>
-              <p></p>
-            </div>
-            <div className={style.title}>
-              Vivamus lacus enim, pulvinar vel nulla sed, scelerisque rhoncus
-              nisi. Praesent vitae mattis nunc, egestas viverra eros.
-            </div>
-
-            <h5 className={style.more}>read more </h5>
-          </div>
-
-          <div className={style.fruit}>
-            <img className={style.nar} src={pomidor} alt="" />
-            <div className={style.name}>
-              <h3 className={style.look}>
-                A man's worth has its season, like tomato.{" "}
-              </h3>
-            </div>
-            <div className={style.yanashi}>
-              <p>Admin</p>
-              <p>27 December, 2019</p>
-            </div>
-            <div className={style.title}>
-              Vivamus lacus enim, pulvinar vel nulla sed, scelerisque rhoncus
-              nisi. Praesent vitae mattis nunc, egestas viverra eros.
-            </div>
-
-            <h5 className={style.more}>read more </h5>
-          </div>
-
-          <div className={style.fruit}>
-            <img className={style.nar} src={nar} alt="" />
-            <div className={style.name}>
-              <h3 className={style.look}>
-                Good thoughts bear good fresh juicy fruit.{" "}
-              </h3>
-            </div>
-            <div className={style.yanashi}>
-              <p>Admin</p>
-              <p>27 December, 2019</p>
-            </div>
-            <div className={style.title}>
-              Vivamus lacus enim, pulvinar vel nulla sed, scelerisque rhoncus
-              nisi. Praesent vitae mattis nunc, egestas viverra eros.
-            </div>
-
-            <h5 className={style.more}>read more </h5>
-          </div> */}
+         
         </div>
-        <button className={style.moreN}>More News</button>
       </div>
     </div>
   );

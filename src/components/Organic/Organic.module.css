@@ -1,14 +1,13 @@
 .allNavbars {
   margin: 0px;
   padding: 0px;
-  height: 100vh;
   background-image: url(../../assets/images/hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 .allFresh {
-    align-items: center;
+  align-items: center;
   text-align: center;
   padding-top: 220px;
 }
@@ -23,7 +22,6 @@
 .yanYanashi {
   display: flex;
   gap: 20px;
-  margin-left: 500px;
 }
 .btn1 {
   padding: 10px 20px;
@@ -38,4 +36,31 @@
   color: white;
   background-color: #5b5841;
   border: 2px solid orange;
+}
+
+@media (max-width: 1440px) {
+  .allNavbars {
+    height: 100vh;
+  }
+  .yanYanashi {
+    margin-left: 500px;
+  }
+}
+
+@media (max-width: 800px) {
+  .allNavbars {
+    height: 200vh;
+  }
+  .yanYanashi {
+    margin-left: 250px;
+  }
+}
+
+@media (max-width: 500px) {
+  .allNavbars {
+    height: 200vh;
+  }
+  .yanYanashi {
+    margin-left: 100px;
+  }
 }

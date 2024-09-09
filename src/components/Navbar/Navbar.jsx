@@ -12,20 +12,16 @@ const Navbar = () => {
         <img className={style.logos} src={logo} alt="logo" />
         <div className={style.links}>
           <Link to="/home">Home</Link>
-          <Link to="/about">About</Link>
-          <Link to="/pages">Pages</Link>
-          <Link to="/news">News</Link>
-          <Link to="/contact">Contact</Link>
           <Link to="/shop">Shop</Link>
         </div>
-        <div className={style.navRight}>
+        {/* <div className={style.navRight}>
           <div className={style.basket}>
             <ShoppingOutlined />
           </div>
           <div className={style.search}>
             <SearchOutlined />
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

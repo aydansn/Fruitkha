@@ -1,5 +1,4 @@
 .shipping{
-    padding: 80px 20px 80px 100px;
     background-color:#F5F5F5;
     align-items:center;
 
@@ -11,7 +10,6 @@
 }
 .uchluYan{
     display: flex;
-    gap: 130px;
     align-items:center; 
 }
 .icons{
@@ -30,3 +28,32 @@
 .when{
     color:gray;
 }
+
+@media (max-width: 1440px) {
+    .shipping{
+        padding: 80px 20px 80px 100px;
+    }
+    .uchluYan{
+        gap: 130px;
+    }
+  }
+  
+  @media (max-width: 800px) {
+    .shipping{
+        padding: 80px 20px 80px 20px;
+    }
+    .uchluYan{
+        gap: 50px;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .shipping{
+        padding: 80px 20px 80px 20px;
+    }
+    .uchluYan{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+  }

@@ -2,7 +2,6 @@
   padding: 20px 30px;
 }
 .allOur {
-  padding: 50px;
   text-align: center;
 }
 .ours {
@@ -12,7 +11,6 @@
   display: flex;
   gap: 20px;
   align-items: center;
-  padding: 20px 30px 60px 30px;
 }
 .impus {
   padding: 20px 0px 50px 0px;
@@ -38,17 +36,48 @@
   padding: 10px 25px;
   font-size: 13px;
 }
-.moreN{
-    padding: 15px 30px;
-    border-radius:20px;
-    background-color: orange;
-    color:white;
-    border: none;
+.moreN {
+  padding: 15px 30px;
+  border-radius: 20px;
+  background-color: orange;
+  color: white;
+  border: none;
 }
 .title {
   padding: 10px 25px;
 }
-.more{
-    padding: 10px 25px;
+.more {
+  padding: 10px 25px;
+}
 
+@media (max-width: 1440px) {
+  .allFruits {
+    padding: 20px 30px 60px 30px;
+  }
+  .allOur {
+    padding: 50px;
+  }
+}
+
+@media (max-width: 800px) {
+  .allFruits {
+    padding: 20px 30px 60px 30px;
+  }
+  .allOur {
+    padding: 0px;
+  }
+}
+
+@media (max-width: 500px) {
+  .allFruits {
+    padding: 20px 30px 60px 30px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .allOur {
+    padding: 0px;
+  }
+   
 }

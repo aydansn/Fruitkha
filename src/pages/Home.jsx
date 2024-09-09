@@ -15,7 +15,7 @@ const Home = () => {
       <Navbar />
       <Organic />
       <Support />
-      <Products to={`/shop?type=all`} />
+      <hr />
       <Deal />
       <Year />
       <December />

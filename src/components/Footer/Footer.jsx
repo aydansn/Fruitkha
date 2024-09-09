@@ -22,14 +22,14 @@ const Footer = () => {
               totam rem aperiam, <br /> eaque ipsa quae.
             </li>
           </ul>
-          <ul style={{ padding: "0px 0px 50px 100px" }}>
+          <ul>
             <h2 className={style.pages}> Get in Touch</h2>
 
             <li>34/8, East Hukupara, Gifirtok, Sadan.</li>
             <li>support@fruitkha.com</li>
             <li>+00 111 222 3333</li>
           </ul>
-          <ul style={{ padding: "0px 0px 10px 0px" }}>
+          <ul>
             <h2 className={style.pages}> Pages </h2>
 
             <li>Home</li>
@@ -41,7 +41,9 @@ const Footer = () => {
           <ul style={{ padding: "0px 0px 70px 0px" }}>
             <h2 className={style.pages}>Subscribe</h2>
 
-            <li style={{paddingBottom: "20px"}}>Subscribe to our mailing list to get the latest updates.</li>
+            <li style={{ paddingBottom: "20px" }}>
+              Subscribe to our mailing list to get the latest updates.
+            </li>
             <input className={style.email} type="text" placeholder="Email" />
           </ul>
         </div>

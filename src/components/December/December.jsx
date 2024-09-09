@@ -18,7 +18,7 @@ const December = () => {
             <h1 className={style.faiz}> 50%</h1>
             <p className={style.upto}>off</p>
           </div>
-          <button className={style.now}>Shop Now</button>
+          {/* <button className={style.now}>Shop Now</button> */}
         </div>
         <div className={style.rightDec}></div>
       </div>

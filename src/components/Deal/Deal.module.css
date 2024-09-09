@@ -1,47 +1,80 @@
-.allDeal{
+.allDeal {
+  background-color: #f5f5f5;
+  gap: 50px;
+  align-items: center;
+}
+.deal {
+  color: orange;
+}
+.hikan {
+  padding: 10px 0px;
+}
+.yanashilar {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.minus {
+  padding-bottom: 20px;
+}
+.zero {
+  color: orange;
+}
+.cat {
+  padding: 15px 25px;
+  border-radius: 20px;
+  color: white;
+  background-color: orange;
+  border: none;
+}
+.day {
+  border: 2px solid orange;
+
+  padding: 10px 20px;
+  text-align: center;
+}
+.a {
+  width: 100%;
+}
+
+
+@media (max-width: 1440px) {
+  .allDeal {
+    display: flex;
     padding: 30px 50px;
-    background-color: #F5F5F5;
+  }
+  .leftDeal {
+    width: 50%;
+  }
+  .rightDeal {
+    width: 50%;
+  }
+}
+
+@media (max-width: 800px) {
+  .allDeal {
     display: flex;
-    gap: 50px;
-    align-items: center;
+    padding: 30px 30px;
+  }
+  .leftDeal {
+    width: 50%;
+  }
+  .rightDeal {
+    width: 50%;
+  }
 }
-.deal{
-    color: orange;
-}
-.hikan{
-    padding: 10px 0px;
-}
-.yanashilar{
+
+@media (max-width: 500px) {
+  .allDeal {
     display: flex;
-    gap: 10px;
-    align-items: center;
-    margin-bottom: 30px;
-}
-.minus{
-    padding-bottom: 20px;
-}
-.zero{
-    color: orange;
-}
-.cat{
-    padding: 15px 25px;
-    border-radius: 20px;
-    color: white;
-    background-color: orange;
-    border: none;
-}
-.day{
-    border: 2px solid orange;
-   
-    padding: 10px 20px;
-    text-align: center;
-}
-.a{
+    flex-direction: column;
+    padding: 30px 10px;
+  }
+  .leftDeal {
     width: 100%;
-}
-.leftDeal{
-    width: 50%;
-}
-.rightDeal{
-    width: 50%;
+  }
+  .rightDeal {
+    width: 100%;
+  }
 }

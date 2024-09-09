@@ -17,6 +17,7 @@
     gap: 30px;
     align-items:center;
     padding: 50px 80px;
+    justify-content: center;
 }
 .dollar{
     padding-bottom: 10px;
@@ -39,9 +40,10 @@
     text-align: center;
     border-radius: 5px;
     border: 1px solid gray;
+    width: 50%;
 }
 .cilek{
-    width: 100%;
+    width: 50%;
 }
 .yanYanashiPro{
     display: flex;

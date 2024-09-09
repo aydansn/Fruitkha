@@ -1,6 +1,5 @@
 .allNavbars {
-background-color: black;
-
+  background-color: black;
 }
 .butunNavbar {
   display: flex;
@@ -8,11 +7,10 @@ background-color: black;
   justify-content: space-between;
   padding: 20px 50px;
   z-index: inherit;
-position: fixed;
-color: black;
-width: 100%;
-background-color: black;
-
+  position: fixed;
+  color: black;
+ 
+  background-color: black;
 }
 .logos {
   width: 15%;
@@ -45,12 +43,12 @@ background-color: black;
   gap: 20px;
 }
 
-
 @media (max-width: 1440px) {
   .butunNavbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
   }
   .links {
     display: flex;
@@ -74,6 +72,7 @@ background-color: black;
     align-items: center;
     justify-content: space-between;
     gap: 10px;
+    width: 100%;
   }
   .links {
     display: flex;
@@ -94,7 +93,7 @@ background-color: black;
 @media (max-width: 500px) {
   .butunNavbar {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns:1fr 1fr 1fr;
   }
   .links {
     display: flex;
